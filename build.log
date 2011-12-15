@@ -5,48 +5,38 @@ Logfile initialized
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.030000 seconds on emulator to get ready
+[DEBUG] waited 0.062000 seconds on emulator to get ready
 [DEBUG] com.fdj.helloworld installed? False
 [INFO] Copying project resources..
 [INFO] Detected tiapp.xml change (or assets deleted), forcing full re-build...
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\appicon.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\appicon.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\bg.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\bg.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\bg_prochain_tirage.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\bg_prochain_tirage.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\boule_orange_big.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\boule_orange_big.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\boule_orange_small.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\boule_orange_small.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\boule_rouge_big.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\boule_rouge_big.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\boule_rouge_small.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\boule_rouge_small.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\btn_rapports.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\btn_rapports.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\btn_simu_grille.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\btn_simu_grille.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\default.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\default.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\header.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\header.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\ico_grilles.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\ico_grilles.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\ico_mesalertes.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\ico_mesalertes.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\ico_oujouer.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\ico_oujouer.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\ico_plusinfos.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\ico_plusinfos.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\ico_resultats.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\ico_resultats.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\ic_stat_notify.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\ic_stat_notify.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\img_inpes.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\img_inpes.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\img_jokerplus.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\img_jokerplus.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\img_progress.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\img_progress.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\iphone_alertes_off.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\iphone_alertes_off.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\iphone_alertes_on.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\iphone_alertes_on.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\iphone_grilles_off.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\iphone_grilles_off.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\iphone_grilles_on.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\iphone_grilles_on.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\iphone_info_off.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\iphone_info_off.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\iphone_info_on.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\iphone_info_on.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\iphone_ou_jouer_off.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\iphone_ou_jouer_off.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\iphone_ou_jouer_on.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\iphone_ou_jouer_on.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\iphone_result_off.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\iphone_result_off.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\iphone_result_on.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\iphone_result_on.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\numero_chance_tirage.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\numero_chance_tirage.png
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\app.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\app.js
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\appicon.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\appicon.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\bg.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\bg.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\bg_prochain_tirage.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\bg_prochain_tirage.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\boule_orange_big.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\boule_orange_big.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\boule_orange_small.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\boule_orange_small.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\boule_rouge_big.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\boule_rouge_big.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\boule_rouge_small.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\boule_rouge_small.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\btn_rapports.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\btn_rapports.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\btn_simu_grille.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\btn_simu_grille.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\default.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\default.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\header.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\header.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\ico_grilles.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\ico_grilles.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\ico_mesalertes.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\ico_mesalertes.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\ico_oujouer.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\ico_oujouer.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\ico_plusinfos.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\ico_plusinfos.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\ico_resultats.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\ico_resultats.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\ic_stat_notify.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\ic_stat_notify.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\img_inpes.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\img_inpes.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\img_jokerplus.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\img_jokerplus.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\img_progress.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\img_progress.png
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\KS_nav_ui.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\KS_nav_ui.png
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\KS_nav_views.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\KS_nav_views.png
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\main.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\main.js
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\map.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\map.js
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\mesalertes.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\mesalertes.js
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\mesgrilles.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\mesgrilles.js
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\numero_chance_tirage.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\numero_chance_tirage.png
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\other.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\other.js
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\Resultats.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\Resultats.js
 [TRACE] Generating Java Classes
@@ -89,16 +79,6 @@ Logfile initialized
 [DEBUG] from resource zip => assets/Resources/img_inpes.png
 [DEBUG] from resource zip => assets/Resources/img_jokerplus.png
 [DEBUG] from resource zip => assets/Resources/img_progress.png
-[DEBUG] from resource zip => assets/Resources/iphone_alertes_off.png
-[DEBUG] from resource zip => assets/Resources/iphone_alertes_on.png
-[DEBUG] from resource zip => assets/Resources/iphone_grilles_off.png
-[DEBUG] from resource zip => assets/Resources/iphone_grilles_on.png
-[DEBUG] from resource zip => assets/Resources/iphone_info_off.png
-[DEBUG] from resource zip => assets/Resources/iphone_info_on.png
-[DEBUG] from resource zip => assets/Resources/iphone_ou_jouer_off.png
-[DEBUG] from resource zip => assets/Resources/iphone_ou_jouer_on.png
-[DEBUG] from resource zip => assets/Resources/iphone_result_off.png
-[DEBUG] from resource zip => assets/Resources/iphone_result_on.png
 [DEBUG] from resource zip => assets/Resources/main.js
 [DEBUG] from resource zip => assets/Resources/map.js
 [DEBUG] from resource zip => assets/Resources/mesalertes.js
@@ -135,6 +115,6 @@ Logfile initialized
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.030000 seconds on emulator to get ready
+[DEBUG] waited 0.033000 seconds on emulator to get ready
 [INFO] Installing application on emulator
 [INFO] Application installed. Launch from drawer on Home Screen

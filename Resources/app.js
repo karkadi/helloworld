@@ -15,23 +15,15 @@ var ivProgress = Titanium.UI.createImageView({
 });
 
 
-var animRotate = Titanium.UI.create2DMatrix({
-	rotate:180
+var start = Titanium.UI.create2DMatrix();
+start = start.rotate(360);
+
+ivProgress.animate({
+	transform:start,
+	repeat:3000,
+	duration:2000,
+	curve:Titanium.UI.ANIMATION_CURVE_LINEAR
 });
-
-
-var anim = Titanium.UI.createAnimation({
-	transform:animRotate,
-	duration:10000
-});
-
-anim.addEventListener('complete', function(e){
-	animRotate.rotate = 0,
-	ivProgress.animate(anim)
-});
-
-ivProgress.animate(anim);
-
 
 
 win.addEventListener('open',function() {
@@ -40,8 +32,12 @@ win.addEventListener('open',function() {
 	var http = Titanium.Network.createHTTPClient({
 		onload: function(e){
 			strText = this.responseText;
-			Ti.API.debug(this.responseText);
-			//alert(strText);
+			//Ti.API.debug(this.responseText);
+			var response = JSON.parse(strText);
+			Ti.UI.createNotification({
+				message : response.android_market
+			}).show();
+			//alert(response.length);
 		},
 		onerror: function(e){
 			alert("Erreur");
@@ -55,7 +51,7 @@ win.addEventListener('open',function() {
 
 win.add(ivProgress);
 win.open();
-
+/*
 setTimeout(function()
 	{
 		win.close();
@@ -65,3 +61,4 @@ setTimeout(function()
 		window.open();
 	},5000);
 	
+*/

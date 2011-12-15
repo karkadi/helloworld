@@ -8,7 +8,7 @@
         <target device="blackberry">false</target>
     </deployment-targets>
     <id>com.fdj.helloworld</id>
-    <name>helloworld</name>
+    <name>TitaniumFdjLoto</name>
     <version>1.0</version>
     <publisher>admin</publisher>
     <url>http://www.fdj.fr</url>

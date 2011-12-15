@@ -1,69 +1,67 @@
-// this sets the background color of the master UIView (when there are no windows/tab groups on it)
-Titanium.UI.setBackgroundColor('#000');
+var win = Titanium.UI.createWindow({
+	backgroung : '#cccccc'
 
-// create tab group
-var tabGroup = Titanium.UI.createTabGroup();
-
-
-var win1 = Titanium.UI.createWindow({
-			url : './Resultats.js'
-		});
-		
-var tab1 = Titanium.UI.createTab({  
-    icon:'KS_nav_views.png',
-    title:'Resultats',
-    window:win1
 });
 
-var win2 = Titanium.UI.createWindow({
-			url : './mesgrilles.js'
-		});
-		
-var tab2 = Titanium.UI.createTab({  
-    icon:'KS_nav_views.png',
-    title:'Mes grilles',
-    window:win2
+var screenWidth = Titanium.Platform.displayCaps.platformWidth;
+var screenHeight = Titanium.Platform.displayCaps.platformHeight;
+
+var ivProgress = Titanium.UI.createImageView({
+	backgroundImage : './img_progress.png',
+	height : '73',
+	width : '73',
+	top : (screenHeight - 73)/2,
+	left : (screenWidth - 73)/2
 });
 
-var win3 = Titanium.UI.createWindow({
-			url : './mesalerts.js'
-		});
-		
-var tab3 = Titanium.UI.createTab({  
-    icon:'KS_nav_views.png',
-    title:'Mes Alerts',
-    window:win3
+
+var animRotate = Titanium.UI.create2DMatrix({
+	rotate:180
 });
 
-var win4 = Titanium.UI.createWindow({
-			url : './map.js'
-		});
-		
-var tab4 = Titanium.UI.createTab({  
-    icon:'KS_nav_ui.png',
-    title:'Jouer',
-    window:win4
+
+var anim = Titanium.UI.createAnimation({
+	transform:animRotate,
+	duration:10000
 });
 
-var win5 = Titanium.UI.createWindow({
-			url : './other.js'
-		});
-		
-		
-var tab5 = Titanium.UI.createTab({  
-    icon:'KS_nav_ui.png',
-    title:'Others',
-    window:win5
+anim.addEventListener('complete', function(e){
+	animRotate.rotate = 0,
+	ivProgress.animate(anim)
 });
 
-//
-//  add tabs
-//
-tabGroup.addTab(tab1);  
-tabGroup.addTab(tab2);  
-tabGroup.addTab(tab3); 
-tabGroup.addTab(tab4); 
-tabGroup.addTab(tab5); 
+ivProgress.animate(anim);
 
-// open tab group
-tabGroup.open();
+
+
+win.addEventListener('open',function() {
+	
+	var strText = "";
+	var http = Titanium.Network.createHTTPClient({
+		onload: function(e){
+			strText = this.responseText;
+			Ti.API.debug(this.responseText);
+			//alert(strText);
+		},
+		onerror: function(e){
+			alert("Erreur");
+		},
+		timeout:5000
+	});
+	http.open("GET", "https://www4.integ.fdj.fr/api/config/loto/");
+	http.send();
+
+});
+
+win.add(ivProgress);
+win.open();
+
+setTimeout(function()
+	{
+		win.close();
+		var window = Titanium.UI.createWindow({
+			url : './main.js'
+		});
+		window.open();
+	},5000);
+	

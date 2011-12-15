@@ -1,69 +1,109 @@
 Logfile initialized
-[INFO] logfile = /Users/admin/Documents/Titanium Studio Workspace/helloworld/build.log
-[DEBUG] /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/builder.py install helloworld /Users/admin/Desktop/android-sdk-macosx /Users/admin/Documents/Titanium Studio Workspace/helloworld com.fdj.helloworld 3
+[INFO] logfile = C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build.log
+[DEBUG] C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\builder.py install TitaniumFdjLoto C:\Users\WS\android-sdks C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto com.fdj.helloworld 7
 [INFO] Titanium SDK version: 1.7.5 (11/02/11 17:00 ab20af7)
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.027926 seconds on emulator to get ready
+[DEBUG] waited 0.030000 seconds on emulator to get ready
 [DEBUG] com.fdj.helloworld installed? False
 [INFO] Copying project resources..
 [INFO] Detected tiapp.xml change (or assets deleted), forcing full re-build...
-[TRACE] COPYING CREATED FILE: /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/appicon.png => /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/bin/assets/Resources/appicon.png
-[TRACE] COPYING CREATED FILE: /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/default.png => /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/bin/assets/Resources/default.png
-[TRACE] COPYING CREATED FILE: /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/app.js => /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/bin/assets/Resources/app.js
-[TRACE] COPYING CREATED FILE: /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/KS_nav_ui.png => /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/bin/assets/Resources/KS_nav_ui.png
-[TRACE] COPYING CREATED FILE: /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/KS_nav_views.png => /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/bin/assets/Resources/KS_nav_views.png
-[TRACE] COPYING CREATED FILE: /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/map.js => /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/bin/assets/Resources/map.js
-[TRACE] COPYING CREATED FILE: /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/mesalerts.js => /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/bin/assets/Resources/mesalerts.js
-[TRACE] COPYING CREATED FILE: /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/mesgrilles.js => /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/bin/assets/Resources/mesgrilles.js
-[TRACE] COPYING CREATED FILE: /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/other.js => /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/bin/assets/Resources/other.js
-[TRACE] COPYING CREATED FILE: /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/Resultats.js => /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/bin/assets/Resources/Resultats.js
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\appicon.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\appicon.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\bg.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\bg.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\bg_prochain_tirage.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\bg_prochain_tirage.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\boule_orange_big.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\boule_orange_big.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\boule_orange_small.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\boule_orange_small.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\boule_rouge_big.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\boule_rouge_big.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\boule_rouge_small.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\boule_rouge_small.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\btn_rapports.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\btn_rapports.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\btn_simu_grille.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\btn_simu_grille.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\default.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\default.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\header.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\header.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\ico_grilles.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\ico_grilles.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\ico_mesalertes.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\ico_mesalertes.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\ico_oujouer.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\ico_oujouer.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\ico_plusinfos.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\ico_plusinfos.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\ico_resultats.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\ico_resultats.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\ic_stat_notify.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\ic_stat_notify.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\img_inpes.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\img_inpes.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\img_jokerplus.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\img_jokerplus.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\img_progress.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\img_progress.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\iphone_alertes_off.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\iphone_alertes_off.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\iphone_alertes_on.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\iphone_alertes_on.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\iphone_grilles_off.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\iphone_grilles_off.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\iphone_grilles_on.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\iphone_grilles_on.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\iphone_info_off.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\iphone_info_off.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\iphone_info_on.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\iphone_info_on.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\iphone_ou_jouer_off.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\iphone_ou_jouer_off.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\iphone_ou_jouer_on.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\iphone_ou_jouer_on.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\iphone_result_off.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\iphone_result_off.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\iphone_result_on.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\iphone_result_on.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\android\numero_chance_tirage.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\numero_chance_tirage.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\app.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\app.js
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\KS_nav_ui.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\KS_nav_ui.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\KS_nav_views.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\KS_nav_views.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\main.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\main.js
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\map.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\map.js
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\mesalertes.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\mesalertes.js
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\mesgrilles.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\mesgrilles.js
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\other.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\other.js
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\Resultats.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\Resultats.js
 [TRACE] Generating Java Classes
 [DEBUG] Processing Android resource drawables
-[DEBUG] app stylesheet => /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/gen/com/fdj/helloworld/ApplicationStylesheet.java
-[DEBUG] copying app icon: /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/bin/assets/Resources/appicon.png
+[DEBUG] app stylesheet => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\gen\com\fdj\helloworld\ApplicationStylesheet.java
+[DEBUG] copying app icon: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\appicon.png
 [DEBUG] generating theme.xml
-[DEBUG] found drawable-long-land-hdpi splash screen at /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/images/res-long-land-hdpi/default.png
-[DEBUG] copying /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/images/res-long-land-hdpi/default.png splash screen to /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/res/drawable-long-land-hdpi/background.png
-[DEBUG] found drawable-long-land-ldpi splash screen at /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/images/res-long-land-ldpi/default.png
-[DEBUG] copying /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/images/res-long-land-ldpi/default.png splash screen to /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/res/drawable-long-land-ldpi/background.png
-[DEBUG] found drawable-long-port-hdpi splash screen at /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/images/res-long-port-hdpi/default.png
-[DEBUG] copying /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/images/res-long-port-hdpi/default.png splash screen to /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/res/drawable-long-port-hdpi/background.png
-[DEBUG] found drawable-long-port-ldpi splash screen at /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/images/res-long-port-ldpi/default.png
-[DEBUG] copying /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/images/res-long-port-ldpi/default.png splash screen to /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/res/drawable-long-port-ldpi/background.png
-[DEBUG] found drawable-notlong-land-hdpi splash screen at /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/images/res-notlong-land-hdpi/default.png
-[DEBUG] copying /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/images/res-notlong-land-hdpi/default.png splash screen to /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/res/drawable-notlong-land-hdpi/background.png
-[DEBUG] found drawable-notlong-land-ldpi splash screen at /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/images/res-notlong-land-ldpi/default.png
-[DEBUG] copying /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/images/res-notlong-land-ldpi/default.png splash screen to /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/res/drawable-notlong-land-ldpi/background.png
-[DEBUG] found drawable-notlong-land-mdpi splash screen at /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/images/res-notlong-land-mdpi/default.png
-[DEBUG] copying /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/images/res-notlong-land-mdpi/default.png splash screen to /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/res/drawable-notlong-land-mdpi/background.png
-[DEBUG] found drawable-notlong-port-hdpi splash screen at /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/images/res-notlong-port-hdpi/default.png
-[DEBUG] copying /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/images/res-notlong-port-hdpi/default.png splash screen to /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/res/drawable-notlong-port-hdpi/background.png
-[DEBUG] found drawable-notlong-port-ldpi splash screen at /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/images/res-notlong-port-ldpi/default.png
-[DEBUG] copying /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/images/res-notlong-port-ldpi/default.png splash screen to /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/res/drawable-notlong-port-ldpi/background.png
-[DEBUG] found drawable-notlong-port-mdpi splash screen at /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/images/res-notlong-port-mdpi/default.png
-[DEBUG] copying /Users/admin/Documents/Titanium Studio Workspace/helloworld/Resources/android/images/res-notlong-port-mdpi/default.png splash screen to /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/res/drawable-notlong-port-mdpi/background.png
-[DEBUG] found splash screen at /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/bin/assets/Resources/default.png
+[DEBUG] found splash screen at C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\default.png
 [TRACE] Writing out AndroidManifest.xml
-[DEBUG] adding /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/gen/com/fdj/helloworld/ApplicationStylesheet.java to javac build list
-[DEBUG] adding /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/gen/com/fdj/helloworld/HelloworldActivity.java to javac build list
-[DEBUG] adding /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/gen/com/fdj/helloworld/HelloworldAppInfo.java to javac build list
-[DEBUG] adding /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/gen/com/fdj/helloworld/HelloworldApplication.java to javac build list
-[DEBUG] adding /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/gen/com/fdj/helloworld/R.java to javac build list
-[DEBUG] Building Java Sources: "/Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/gen/com/fdj/helloworld/ApplicationStylesheet.java" "/Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/gen/com/fdj/helloworld/HelloworldActivity.java" "/Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/gen/com/fdj/helloworld/HelloworldAppInfo.java" "/Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/gen/com/fdj/helloworld/HelloworldApplication.java" "/Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/gen/com/fdj/helloworld/R.java"
+[DEBUG] adding C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\gen\com\fdj\helloworld\ApplicationStylesheet.java to javac build list
+[DEBUG] adding C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\gen\com\fdj\helloworld\R.java to javac build list
+[DEBUG] adding C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\gen\com\fdj\helloworld\TitaniumfdjlotoActivity.java to javac build list
+[DEBUG] adding C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\gen\com\fdj\helloworld\TitaniumfdjlotoAppInfo.java to javac build list
+[DEBUG] adding C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\gen\com\fdj\helloworld\TitaniumfdjlotoApplication.java to javac build list
+[DEBUG] Building Java Sources: "C:\\Users\\WS\\My Documents\\Titanium Studio Workspace\\TitaniumFdjLoto\\build\\android\\gen\\com\\fdj\\helloworld\\ApplicationStylesheet.java" "C:\\Users\\WS\\My Documents\\Titanium Studio Workspace\\TitaniumFdjLoto\\build\\android\\gen\\com\\fdj\\helloworld\\R.java" "C:\\Users\\WS\\My Documents\\Titanium Studio Workspace\\TitaniumFdjLoto\\build\\android\\gen\\com\\fdj\\helloworld\\TitaniumfdjlotoActivity.java" "C:\\Users\\WS\\My Documents\\Titanium Studio Workspace\\TitaniumFdjLoto\\build\\android\\gen\\com\\fdj\\helloworld\\TitaniumfdjlotoAppInfo.java" "C:\\Users\\WS\\My Documents\\Titanium Studio Workspace\\TitaniumFdjLoto\\build\\android\\gen\\com\\fdj\\helloworld\\TitaniumfdjlotoApplication.java"
 [INFO] Compiling Android Resources... This could take some time
 [DEBUG] Android classes.dex built
-[DEBUG] creating unsigned apk: /Users/admin/Documents/Titanium Studio Workspace/helloworld/build/android/bin/app-unsigned.apk
+[DEBUG] creating unsigned apk: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\app-unsigned.apk
 [DEBUG] from resource zip => assets/Resources/KS_nav_ui.png
 [DEBUG] from resource zip => assets/Resources/KS_nav_views.png
 [DEBUG] from resource zip => assets/Resources/Resultats.js
 [DEBUG] from resource zip => assets/Resources/app.js
 [DEBUG] from resource zip => assets/Resources/appicon.png
+[DEBUG] from resource zip => assets/Resources/bg.png
+[DEBUG] from resource zip => assets/Resources/bg_prochain_tirage.png
+[DEBUG] from resource zip => assets/Resources/boule_orange_big.png
+[DEBUG] from resource zip => assets/Resources/boule_orange_small.png
+[DEBUG] from resource zip => assets/Resources/boule_rouge_big.png
+[DEBUG] from resource zip => assets/Resources/boule_rouge_small.png
+[DEBUG] from resource zip => assets/Resources/btn_rapports.png
+[DEBUG] from resource zip => assets/Resources/btn_simu_grille.png
 [DEBUG] from resource zip => assets/Resources/default.png
+[DEBUG] from resource zip => assets/Resources/header.png
+[DEBUG] from resource zip => assets/Resources/ic_stat_notify.png
+[DEBUG] from resource zip => assets/Resources/ico_grilles.png
+[DEBUG] from resource zip => assets/Resources/ico_mesalertes.png
+[DEBUG] from resource zip => assets/Resources/ico_oujouer.png
+[DEBUG] from resource zip => assets/Resources/ico_plusinfos.png
+[DEBUG] from resource zip => assets/Resources/ico_resultats.png
+[DEBUG] from resource zip => assets/Resources/img_inpes.png
+[DEBUG] from resource zip => assets/Resources/img_jokerplus.png
+[DEBUG] from resource zip => assets/Resources/img_progress.png
+[DEBUG] from resource zip => assets/Resources/iphone_alertes_off.png
+[DEBUG] from resource zip => assets/Resources/iphone_alertes_on.png
+[DEBUG] from resource zip => assets/Resources/iphone_grilles_off.png
+[DEBUG] from resource zip => assets/Resources/iphone_grilles_on.png
+[DEBUG] from resource zip => assets/Resources/iphone_info_off.png
+[DEBUG] from resource zip => assets/Resources/iphone_info_on.png
+[DEBUG] from resource zip => assets/Resources/iphone_ou_jouer_off.png
+[DEBUG] from resource zip => assets/Resources/iphone_ou_jouer_on.png
+[DEBUG] from resource zip => assets/Resources/iphone_result_off.png
+[DEBUG] from resource zip => assets/Resources/iphone_result_on.png
+[DEBUG] from resource zip => assets/Resources/main.js
 [DEBUG] from resource zip => assets/Resources/map.js
-[DEBUG] from resource zip => assets/Resources/mesalerts.js
+[DEBUG] from resource zip => assets/Resources/mesalertes.js
 [DEBUG] from resource zip => assets/Resources/mesgrilles.js
+[DEBUG] from resource zip => assets/Resources/numero_chance_tirage.png
 [DEBUG] from resource zip => assets/Resources/other.js
 [DEBUG] from resource zip => assets/tiapp.xml
 [DEBUG] from resource zip => res/drawable/appicon.png
@@ -71,40 +111,30 @@ Logfile initialized
 [DEBUG] from resource zip => res/layout/titanium_tabgroup.xml
 [DEBUG] from resource zip => AndroidManifest.xml
 [DEBUG] from resource zip => resources.arsc
-[DEBUG] from resource zip => res/drawable-long-land-hdpi/background.png
-[DEBUG] from resource zip => res/drawable-long-land-ldpi/background.png
-[DEBUG] from resource zip => res/drawable-long-port-hdpi/background.png
-[DEBUG] from resource zip => res/drawable-long-port-ldpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-land-hdpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-land-ldpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-land-mdpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-port-hdpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-port-ldpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-port-mdpi/background.png
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/smalljs.jar => org/mozilla/javascript/resources/Messages.properties
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/smalljs.jar => org/mozilla/javascript/resources/Messages_fr.properties
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/apache/Commons-NOTICE.txt
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/apache/HttpComponents-NOTICE.txt
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/apache/mime4j-NOTICE.txt
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/build.properties
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/background.png
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
-[DEBUG] from JAR /Users/admin/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\smalljs.jar => org/mozilla/javascript/resources/Messages.properties
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\smalljs.jar => org/mozilla/javascript/resources/Messages_fr.properties
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/apache/Commons-NOTICE.txt
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/apache/HttpComponents-NOTICE.txt
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/apache/mime4j-NOTICE.txt
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/build.properties
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/background.png
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
+[DEBUG] from JAR C:\Users\WS\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.030816 seconds on emulator to get ready
+[DEBUG] waited 0.030000 seconds on emulator to get ready
 [INFO] Installing application on emulator
 [INFO] Application installed. Launch from drawer on Home Screen

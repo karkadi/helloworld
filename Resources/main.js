@@ -1,8 +1,211 @@
-var win = Titanium.UI.currentWindow;
-win.backgroundImage = '/bg.png';
 
 
+if (Titanium.Platform.osname == 'iphone'){
+	var tabGroup = Titanium.UI.createTabGroup();
 
+	
+	//
+	// Zone Results
+	//
+	var winResults = Titanium.UI.createWindow({  
+	    url : './Resultats.js'
+	});
+	var winGrilles = Titanium.UI.createWindow({  
+	    url : './Grilles.js'
+	});
+	var winAlertes = Titanium.UI.createWindow({  
+	    url : './Alertes.js'
+	});
+	var winOuJouer = Titanium.UI.createWindow({  
+	    url : './OuJouer.js'
+	});
+	var winInfos = Titanium.UI.createWindow({  
+	    url : './Infos.js'
+	});
+	
+	
+	var tabResults = Titanium.UI.createTab({  
+	    icon:'iphone_result_on.png',
+	    title:'Résultats',
+	    window:winResults
+	});
+	
+	var labelRes = Titanium.UI.createLabel({
+		color:'#999',
+		text:'Resultats',
+		font:{fontSize:20,fontFamily:'Helvetica Neue'},
+		textAlign:'center',
+		width:'auto'
+	});
+	
+	tabResults.addEventListener('click', function(e) {
+		Ti.UI.createNotification({
+			message : 'Resultats selected'
+		}).show();
+		tabResults.icon = 'iphone_result_off.png';
+		//winResults.close();
+		winGrilles.close();
+		winAlertes.close();
+		winOuJouer.close();
+		winInfos.close();
+		
+	});
+	
+	winResults.add(labelRes);
+	
+	//
+	// Zonze Grilles
+	//
+	
+	var tabGrilles = Titanium.UI.createTab({  
+	    icon:'KS_nav_views.png',
+	    title:'Mes Grilles',
+	    window:winGrilles
+	});
+	
+	var labelGrilles = Titanium.UI.createLabel({
+		color:'#999',
+		text:'Grilles',
+		font:{fontSize:20,fontFamily:'Helvetica Neue'},
+		textAlign:'center',
+		width:'auto'
+	});
+	
+	tabGrilles.addEventListener('click', function(e) {
+		Ti.UI.createNotification({
+			message : 'Grilles selected'
+		}).show();
+		tabResults.icon = 'iphone_result_off.png';
+		winResults.close();
+		//winGrilles.close();
+		winAlertes.close();
+		winOuJouer.close();
+		winInfos.close();
+		
+	});
+	
+	winGrilles.add(labelGrilles);
+	
+	
+	//
+	// Zonze Alertes
+	//
+	
+	var tabAlertes = Titanium.UI.createTab({  
+	    icon:'KS_nav_ui.png',
+	    title:'Mes Alertes',
+	    window:winAlertes
+	});
+	
+	var labelAlertes = Titanium.UI.createLabel({
+		color:'#999',
+		text:'Alertes',
+		font:{fontSize:20,fontFamily:'Helvetica Neue'},
+		textAlign:'center',
+		width:'auto'
+	});
+	
+	tabAlertes.addEventListener('click', function(e) {
+		Ti.UI.createNotification({
+			message : 'Alarte selected'
+		}).show();
+		tabResults.icon = 'iphone_result_off.png';
+		winResults.close();
+		winGrilles.close();
+		//winAlertes.close();
+		winOuJouer.close();
+		winInfos.close();
+		
+	});
+	
+	winAlertes.add(labelAlertes);
+	
+	
+	//
+	// Zonze Ou Jouer
+	//
+	
+	var tabOuJouer = Titanium.UI.createTab({  
+	    icon:'iphone_ou_jouer_on.png',
+	    title:'Ou Jouer',
+	    window:winOuJouer
+	});
+	
+	var labelOuJouer = Titanium.UI.createLabel({
+		color:'#999',
+		text:'Ou Jouer',
+		font:{fontSize:20,fontFamily:'Helvetica Neue'},
+		textAlign:'center',
+		width:'auto'
+	});
+	
+	tabOuJouer.addEventListener('click', function(e) {
+		Ti.UI.createNotification({
+			message : 'OuJouer selected'
+		}).show();
+		tabResults.icon = 'iphone_result_off.png';
+		winResults.close();
+		winGrilles.close();
+		winAlertes.close();
+		//winOuJouer.close();
+		winInfos.close();
+		
+	});
+	
+	winOuJouer.add(labelOuJouer);
+	
+	
+	
+	//
+	// Zonze Infos
+	//
+	
+	var tabInfos = Titanium.UI.createTab({  
+	    icon:'iphone_info_on.png',
+	    title:'Infos',
+	    window:winInfos
+	});
+	
+	var labelInfos = Titanium.UI.createLabel({
+		color:'#999',
+		text:'Infos',
+		font:{fontSize:20,fontFamily:'Helvetica Neue'},
+		textAlign:'center',
+		width:'auto'
+	});
+	
+	tabInfos.addEventListener('click', function(e) {
+		Ti.UI.createNotification({
+			message : 'Info selected'
+		}).show();
+		tabResults.icon = 'iphone_result_off.png';
+		winResults.close();
+		winGrilles.close();
+		winAlertes.close();
+		winOuJouer.close();
+		//winInfos.close();
+		
+	});
+	
+	winInfos.add(labelInfos);
+	
+	
+	//
+	//  add tabs
+	//
+	tabGroup.addTab(tabResults);  
+	tabGroup.addTab(tabGrilles);  
+	tabGroup.addTab(tabAlertes);  
+	tabGroup.addTab(tabOuJouer);  
+	tabGroup.addTab(tabInfos); 
+	
+	
+	// open tab group
+	tabGroup.open();
+}
+
+
+/*
 win.name = "window";
 
 var screenWidth = Titanium.Platform.displayCaps.platformWidth;
@@ -258,132 +461,6 @@ var lbInpes = Titanium.UI.createLabel({
 });
 
 
-//zone IPhone
-var fgResult = false;
-var fgGrilles = false;
-var fgAlertes = false;
-var fgOuJouer = false;
-var fgInfo = false;
-
-var topGap = screenHeight - 100;
-var iphoneHeight = 100;
-var ivIphoneMenuResult = Titanium.UI.createImageView({
-	backgroundImage :'./iphone_result_off.png',
-	height : iphoneHeight,
-	width : screenWidth/5,
-	top : topGap,
-	left : 0
-});
-
-ivIphoneMenuResult.addEventListener('click', function(e) {
-	ivIphoneMenuGrilles.backgroundImage = './iphone_grilles_off.png';
-	ivIphoneMenuAlertes.backgroundImage = './iphone_alertes_off.png';
-	ivIphoneMenuOuJouer.backgroundImage = './iphone_ou_jouer_off.png';
-	ivIphoneMenuInfo.backgroundImage = './iphone_info_off.png';
-	if (ivIphoneMenuResult.backgroundImage == './iphone_result_off.png'){
-		ivIphoneMenuResult.backgroundImage = './iphone_result_on.png';
-	}else{
-		ivIphoneMenuResult.backgroundImage = './iphone_result_off.png';
-	}
-	win.close();
-	var newWin = Titanium.UI.createWindow({
-		url : './Resultats.js'
-	});
-	newWin.open();
-});
-
-var ivIphoneMenuGrilles = Titanium.UI.createImageView({
-	backgroundImage :'./iphone_grilles_off.png',
-	height : iphoneHeight,
-	width : screenWidth/5,
-	top : topGap,
-	left : screenWidth/5
-});
-ivIphoneMenuGrilles.addEventListener('click', function(e) {
-	ivIphoneMenuResult.backgroundImage = './iphone_result_off.png';
-	ivIphoneMenuAlertes.backgroundImage = './iphone_alertes_off.png';
-	ivIphoneMenuOuJouer.backgroundImage = './iphone_ou_jouer_off.png';
-	ivIphoneMenuInfo.backgroundImage = './iphone_info_off.png';
-	if (ivIphoneMenuGrilles.backgroundImage == './iphone_grilles_off.png'){
-		ivIphoneMenuGrilles.backgroundImage = './iphone_grilles_on.png';
-	}else{
-		ivIphoneMenuGrilles.backgroundImage = './iphone_grilles_off.png';
-	}
-	win.close();
-	var newWin = Titanium.UI.createWindow({
-		url : './mesgrilles.js'
-	});
-	newWin.open();
-});
-
-var ivIphoneMenuAlertes = Titanium.UI.createImageView({
-	backgroundImage :'./iphone_alertes_off.png',
-	height : iphoneHeight,
-	width : screenWidth/5,
-	top : topGap,
-	left : (screenWidth/5)*2
-});
-ivIphoneMenuAlertes.addEventListener('click', function(e) {
-	ivIphoneMenuResult.backgroundImage = './iphone_result_off.png';
-	ivIphoneMenuGrilles.backgroundImage = './iphone_grilles_off.png';
-	ivIphoneMenuOuJouer.backgroundImage = './iphone_ou_jouer_off.png';
-	ivIphoneMenuInfo.backgroundImage = './iphone_info_off.png';
-	if (ivIphoneMenuAlertes.backgroundImage == './iphone_alertes_off.png'){
-		ivIphoneMenuAlertes.backgroundImage = './iphone_alertes_on.png';
-	}else{
-		ivIphoneMenuAlertes.backgroundImage = './iphone_alertes_off.png';
-	}
-	win.close();
-	var newWin = Titanium.UI.createWindow({
-		url : './mesalertes.js'
-	});
-	newWin.open();
-});
-
-var ivIphoneMenuOuJouer = Titanium.UI.createImageView({
-	backgroundImage :'./iphone_ou_jouer_off.png',
-	height : iphoneHeight,
-	width : screenWidth/5,
-	top : topGap,
-	left : (screenWidth/5)*3
-});
-ivIphoneMenuOuJouer.addEventListener('click', function(e) {
-	ivIphoneMenuResult.backgroundImage = './iphone_result_off.png';
-	ivIphoneMenuGrilles.backgroundImage = './iphone_grilles_off.png';
-	ivIphoneMenuAlertes.backgroundImage = './iphone_alertes_off.png';
-	ivIphoneMenuInfo.backgroundImage = './iphone_info_off.png';
-	if (ivIphoneMenuOuJouer.backgroundImage == './iphone_ou_jouer_off.png'){
-		ivIphoneMenuOuJouer.backgroundImage = './iphone_ou_jouer_on.png';
-	}else{
-		ivIphoneMenuOuJouer.backgroundImage = './iphone_ou_jouer_off.png';
-	}
-});
-
-var ivIphoneMenuInfo = Titanium.UI.createImageView({
-	backgroundImage :'./iphone_info_off.png',
-	height : iphoneHeight,
-	width : screenWidth/5,
-	top : topGap,
-	left : (screenWidth/5)*4
-});
-ivIphoneMenuInfo.addEventListener('click', function(e) {
-	ivIphoneMenuResult.backgroundImage = './iphone_result_off.png';
-	ivIphoneMenuGrilles.backgroundImage = './iphone_grilles_off.png';
-	ivIphoneMenuAlertes.backgroundImage = './iphone_alertes_off.png';
-	ivIphoneMenuOuJouer.backgroundImage = './iphone_ou_jouer_off.png';
-	if (ivIphoneMenuInfo.backgroundImage == './iphone_info_off.png'){
-		ivIphoneMenuInfo.backgroundImage = './iphone_info_on.png';	
-	}else{
-		ivIphoneMenuInfo.backgroundImage = './iphone_info_off.png';
-	}
-	win.close();
-	var newWin = Titanium.UI.createWindow({
-		url : './other.js'
-	});
-	newWin.open();
-});
-
-
 win.add(ivHeader);
 win.add(ivResult);
 win.add(lbDate);
@@ -411,17 +488,15 @@ win.add(lbInfo);
 win.add(ivInpes);
 win.add(lbInpes);
 
-if (Titanium.Platform.osname == 'iphone'){
-	win.add(ivIphoneMenuResult);
-	win.add(ivIphoneMenuGrilles);
-	win.add(ivIphoneMenuAlertes);
-	win.add(ivIphoneMenuOuJouer);
-	win.add(ivIphoneMenuInfo);
-}
+*/
 
 
 
 if (Titanium.Platform.osname == 'android'){
+	//var win = Titanium.UI.currentWindow;
+	//win.backgroundImage = '/bg.png';
+	Ti.include('Resultats.js');
+	
 	var activity = Ti.Android.currentActivity;
 	activity.onCreateOptionsMenu = function(e) {
 		menu = e.menu; 

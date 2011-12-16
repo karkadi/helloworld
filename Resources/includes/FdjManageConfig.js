@@ -1,0 +1,2 @@
+
+Titanium.App.fdjConfig = 'fdgConfig';

@@ -5,10 +5,11 @@ Logfile initialized
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.062000 seconds on emulator to get ready
+[DEBUG] waited 0.070000 seconds on emulator to get ready
 [DEBUG] com.fdj.helloworld installed? False
 [INFO] Copying project resources..
 [INFO] Detected tiapp.xml change (or assets deleted), forcing full re-build...
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\Alertes.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\Alertes.js
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\app.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\app.js
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\appicon.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\appicon.png
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\bg.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\bg.png
@@ -20,6 +21,7 @@ Logfile initialized
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\btn_rapports.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\btn_rapports.png
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\btn_simu_grille.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\btn_simu_grille.png
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\default.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\default.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\Grilles.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\Grilles.js
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\header.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\header.png
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\ico_grilles.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\ico_grilles.png
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\ico_mesalertes.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\ico_mesalertes.png
@@ -30,14 +32,14 @@ Logfile initialized
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\img_inpes.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\img_inpes.png
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\img_jokerplus.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\img_jokerplus.png
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\img_progress.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\img_progress.png
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\includes\FdjManageConfig.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\includes\FdjManageConfig.js
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\Infos.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\Infos.js
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\KS_nav_ui.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\KS_nav_ui.png
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\KS_nav_views.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\KS_nav_views.png
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\main.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\main.js
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\map.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\map.js
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\mesalertes.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\mesalertes.js
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\mesgrilles.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\mesgrilles.js
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\numero_chance_tirage.png => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\numero_chance_tirage.png
-[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\other.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\other.js
+[TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\OuJouer.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\OuJouer.js
 [TRACE] COPYING CREATED FILE: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\Resources\Resultats.js => C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\assets\Resources\Resultats.js
 [TRACE] Generating Java Classes
 [DEBUG] Processing Android resource drawables
@@ -55,8 +57,13 @@ Logfile initialized
 [INFO] Compiling Android Resources... This could take some time
 [DEBUG] Android classes.dex built
 [DEBUG] creating unsigned apk: C:\Users\WS\My Documents\Titanium Studio Workspace\TitaniumFdjLoto\build\android\bin\app-unsigned.apk
+[DEBUG] from resource zip => assets/Resources/includes/FdjManageConfig.js
+[DEBUG] from resource zip => assets/Resources/Alertes.js
+[DEBUG] from resource zip => assets/Resources/Grilles.js
+[DEBUG] from resource zip => assets/Resources/Infos.js
 [DEBUG] from resource zip => assets/Resources/KS_nav_ui.png
 [DEBUG] from resource zip => assets/Resources/KS_nav_views.png
+[DEBUG] from resource zip => assets/Resources/OuJouer.js
 [DEBUG] from resource zip => assets/Resources/Resultats.js
 [DEBUG] from resource zip => assets/Resources/app.js
 [DEBUG] from resource zip => assets/Resources/appicon.png
@@ -81,10 +88,7 @@ Logfile initialized
 [DEBUG] from resource zip => assets/Resources/img_progress.png
 [DEBUG] from resource zip => assets/Resources/main.js
 [DEBUG] from resource zip => assets/Resources/map.js
-[DEBUG] from resource zip => assets/Resources/mesalertes.js
-[DEBUG] from resource zip => assets/Resources/mesgrilles.js
 [DEBUG] from resource zip => assets/Resources/numero_chance_tirage.png
-[DEBUG] from resource zip => assets/Resources/other.js
 [DEBUG] from resource zip => assets/tiapp.xml
 [DEBUG] from resource zip => res/drawable/appicon.png
 [DEBUG] from resource zip => res/drawable/background.png
@@ -115,6 +119,6 @@ Logfile initialized
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.033000 seconds on emulator to get ready
+[DEBUG] waited 0.030000 seconds on emulator to get ready
 [INFO] Installing application on emulator
 [INFO] Application installed. Launch from drawer on Home Screen
